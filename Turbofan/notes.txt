@@ -1,0 +1,11 @@
+Fragen:
+- Warum kein Daten 003 und 004?
+
+
+Aufgabe: predict the number of remaining operational cycles before failure in the test set
+
+CHaracteristics:
+- Each dataset is from a different engine which starts with different degrees of initial wear and manufacturing variation
+- There are three operational settings that have a substantial effect on engine performance, included in the data.
+- Each enginge develops a fault during the series, In the training set, the fault grows in magnitude until system failure. 
+  In the test set, the time series ends some time prior to system failure.
